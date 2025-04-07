@@ -1,0 +1,53 @@
+html,
+body {
+  justify-content: center;
+}
+
+body {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/* Fondo oscuro real del segundo modal */
+.custom-backdrop {
+  z-index: 2000 !important; /* mayor que el primer modal */
+  background-color: rgba(0, 0, 0, 0.6); /* opcional, para hacerlo más oscuro */
+}
+
+/* Segundo modal encima */
+.modal.show {
+  z-index: 2000 !important;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.conteinerTasks {
+  justify-content: center;
+}
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa; /* opcional, similar al de Bootstrap */
+}
+
+.data-table-responsive {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+@media (max-width: 768px) {
+  .rdt_Table {
+    min-width: 800px; /* O más si tenés muchas columnas */
+  }
+}
