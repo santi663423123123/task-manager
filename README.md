@@ -1,60 +1,7 @@
 📝 Task System
 
 Sistema de gestión de tareas con frontend en React + Vite y backend en Node.js con SQLite .
-
-📦 Estructura del Proyecto
-
-task-system/
-├── backend/            
-│   └── /package.json
-│   └── /package-lock.json
-│   └── /eslint.config.js
-│   └── database/
-│       └── tasks.sqlite
-│   └── src/
-│       └── server.js
-│       └── db.js
-│       └── app.js
-│       └── Models
-│           └── index.js
-│           └── priority.js
-│           └── state.js
-│           └── subtask.js
-│           └── task.js
-│           └── task_detail.js
-│       └── Routes
-│           └── priorityRoutes.js
-│           └── stateRoutes.js
-│           └── taskRoutes.js
-│       └── Test
-│           └── jest.config.js
-│           └── priority.test.js
-│           └── state.test.js
-│           └── task.test.js
-├── frontend/            
-│   └── src/
-│       └── api
-│           └── priority.js
-│           └── state.js
-│           └── subtask.js
-│           └── task.js
-│       └── components
-│           └── confirmation_dialog.jsx
-│           └── task_details.jsx
-│           └── task_form.jsx
-│           └── task_item.jsx
-│           └── task_list.jsx
-│       └── pages
-│           └── dashboard.jsx
-│           └── task_view.jsx
-│       └── styles
-│           └── styles.css
-│       └── App.css
-│       └── App.jsx
-│       └── index.css
-│       └── main.jsx
-├── docker-compose.yml
-└── README.md
+<pre> ```text 📦 Estructura del Proyecto task-system/ ├── backend/ │ └── /package.json │ └── /package-lock.json │ └── /eslint.config.js │ └── database/ │ └── tasks.sqlite │ └── src/ │ └── server.js │ └── db.js │ └── app.js │ └── Models │ └── index.js │ └── priority.js │ └── state.js │ └── subtask.js │ └── task.js │ └── task_detail.js │ └── Routes │ └── priorityRoutes.js │ └── stateRoutes.js │ └── taskRoutes.js │ └── Test │ └── jest.config.js │ └── priority.test.js │ └── state.test.js │ └── task.test.js ├── frontend/ │ └── src/ │ └── api │ └── priority.js │ └── state.js │ └── subtask.js │ └── task.js │ └── components │ └── confirmation_dialog.jsx │ └── task_details.jsx │ └── task_form.jsx │ └── task_item.jsx │ └── task_list.jsx │ └── pages │ └── dashboard.jsx │ └── task_view.jsx │ └── styles │ └── styles.css │ └── App.css │ └── App.jsx │ └── index.css │ └── main.jsx ├── docker-compose.yml └── README.md ``` </pre>
 
 ✨ ¿Cómo levantar el entorno?
 
