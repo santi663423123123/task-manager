@@ -31,7 +31,6 @@ task-system/
 │           └── priority.test.js
 │           └── state.test.js
 │           └── task.test.js
-│ 
 ├── frontend/            
 │   └── src/
 │       └── api
