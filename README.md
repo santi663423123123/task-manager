@@ -55,7 +55,7 @@ task-system/
 │       └── main.jsx
 ├── docker-compose.yml
 └── README.md
-<pre>
+</pre>
 ✨ ¿Cómo levantar el entorno?
 
 Requisitos
